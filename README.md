@@ -11,3 +11,5 @@ Documenting my cybersecurity journey, from the Tutedude course to hands-on labs 
 | 10 Oct 2026 | Module 3 assignments | Completed 4 Module 3 assignments (Linux commands, permissions, file system, bash scripting) on TryHackMe. Write-up + screenshots coming tomorrow |
 | 11 Oct 2026 | Module 3 assignments (proof) | Proof: [Assignment1.zip](tutedude-course/Assignment1.zip), [Assignment2.zip](tutedude-course/Assignment2.zip), [Assignment3.zip](tutedude-course/Assignment3.zip), [Assignment4.zip](tutedude-course/Assignment4.zip) |
 | 12 Oct 2026 | Completed Module 4 | Foundations of Information Security: CIA triad, attacker profiles, Cyber Kill Chain, recon, malware and attacks, Wi-Fi attacks, APTs, risk management. Notes: [04-foundations-of-information-security.md](tutedude-course/04-foundations-of-information-security.md) |
+| 13 Oct 2026 | Completed Module 4 Assignment | 
+
