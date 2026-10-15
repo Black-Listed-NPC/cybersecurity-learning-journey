@@ -13,3 +13,4 @@ Documenting my cybersecurity journey, from the Tutedude course to hands-on labs 
 | 12 Oct 2026 | Completed Module 4 | Foundations of Information Security: CIA triad, attacker profiles, Cyber Kill Chain, recon, malware and attacks, Wi-Fi attacks, APTs, risk management. Notes: [04-foundations-of-information-security.md](tutedude-course/04-foundations-of-information-security.md) |
 | 13 Oct 2026 | Completed Assignment 5 (Information Gathering) — Module 4 assignment, approved | Active/passive scanning task. Proof: [Assignment5.zip](tutedude-course/Assignment5.zip) |
 | 14 Oct 2026 | Started Module 5 (Application Security & Pentesting) — Part 1 | How websites work, cookies/sessions/auth, FTP misconfig + WordPress hacking labs. Notes: [05-web-app-security-pentesting-pt1.md](tutedude-course/05-web-app-security-pentesting-pt1.md) |
+| 15 Oct 2026 | Module 5 (Application Security & Pentesting) — Part 2 | Linux File Sharing, Hosting Website, Website Defacement Practical  |
