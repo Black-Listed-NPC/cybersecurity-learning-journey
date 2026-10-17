@@ -1,5 +1,5 @@
 > ⚠️ **Disclaimer:** All attacks and exploits documented here were performed strictly in an isolated, offline virtual lab environment (VirtualBox VMs) for educational purposes as part of a structured cybersecurity course. No real systems, networks, or data were targeted. This content is for learning and awareness only.
-# Lecture 1-2: Intro to CyberSecurity + WannaCry Ransomware
+# Day 1: Intro to CyberSecurity + WannaCry Ransomware
 
 **Date:** 08 Oct 2026
 
