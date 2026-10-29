@@ -20,7 +20,8 @@
 ## Assignment completed (TryHackMe)
 | # | Task | Focus |
 |---|------|-------|
-| 4 | Bash Scripting | variables, arrays, conditionals — leap-year, even/odd, range check, calculator scripts |
+|  | Python  | variables, arrays, conditionals — leap-year, even/odd, range check, calculator scripts |
+|  | Bash  | basic scripting |
 
 **Proof:** `Assignment 4.zip`
 
