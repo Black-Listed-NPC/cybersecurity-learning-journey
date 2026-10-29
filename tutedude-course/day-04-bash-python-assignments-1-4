@@ -70,4 +70,5 @@
 
 ## Key takeaways
 - Bash for quick system automation; Python for anything heavier (parsing, data, custom tools).
-- Module 3 complete: Linux, Bash and Python are the base for every module that follows.
+- Module 3 complete: Linux, Bash and Python are the base for every module that follows
+  
