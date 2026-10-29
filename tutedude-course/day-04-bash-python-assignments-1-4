@@ -1,0 +1,73 @@
+# Day 4 - Module 3 (Part 3): Bash and Python Fundamentals + Assignments 1-4
+
+**Date:** 11 Oct 2026
+**Module:** Module 3 - Linux and Python Fundamentals (complete)
+**Study time:** 2h 32m
+**Assignments:** 1, 2, 3, 4
+
+| Lecture | Duration |
+|---|---|
+| Bash Scripting - Variables | 30m |
+| Bash Scripting - Arrays and Conditional Statements | 35m |
+| Python Fundamentals | 1h 27m |
+
+> All hands-on work below was done only in my own isolated lab VMs, for learning purposes.
+
+## Covered today
+
+### Bash scripting
+- Bash is a scripting language that runs in the terminal on most Linux distros and macOS. A shell script is a sequence of commands in a file, used to automate repetitive sysadmin work.
+- Every script starts with the shebang `#!/bin/bash`; `echo` prints output.
+- **Variables:** no spaces around `=`; read them with `$`.
+  ```bash
+  name="student"
+  echo "Hello $name"
+  read -p "Enter your city: " city
+  ```
+- **Arrays:** indexed from 0.
+  ```bash
+  cars=('honda' 'audi' 'bmw' 'tesla')
+  echo "${cars[1]}"      # audi
+  echo "${cars[@]}"      # all elements
+  unset cars[3]          # remove tesla
+  cars[3]='toyota'       # replace it
+  ```
+- **Conditionals:** `if / elif / else / fi` with tests in `[ ]`.
+  ```bash
+  if [ $num -ge 1 ] && [ $num -le 100 ]; then
+      echo "The number is within the range."
+  else
+      echo "The number is out of range."
+  fi
+  ```
+
+### Python fundamentals
+- **Why Python in security:** automating repetitive tasks (log and traffic analysis, scanning), building custom tools, and analysing large data sets for anomalies.
+- Setup: check with `python -V`; the course recommends Anaconda and Jupyter Notebook.
+- **Indentation** defines code blocks instead of braces.
+- **Data types**
+  | Type | Example | Notes |
+  |---|---|---|
+  | int / float | `7`, `7.0` | whole and decimal numbers |
+  | str | `'hello'` | single or double quotes |
+  | list | `[1, 2, "three"]` | ordered, mutable, allows duplicates |
+  | tuple | `(1, "two", 3.0)` | ordered, immutable |
+  | dict | `{"name": "Alice", "age": 30}` | key-value pairs, mutable |
+- **Operators:** `+ - * /`, modulo `%`, power `**`; strings and lists can be joined with `+` and repeated with `*`.
+- **String methods:** `len()`, `.index()`, `.count()`, `.upper()`.
+- **Conditions:** `==, !=, <, <=, >, >=`, combined with `and`, `or`, `not`, and membership with `in`.
+- **Loops:** `for x in range(3, 6)` and `while count < 5`.
+- **Type conversion:** `int("123")`, `float("45.67")`.
+- Practice exercises from the course workbook: variable assignment, type identification with `type()`, integer/float arithmetic, string manipulation, boolean operations, type conversion, plus small programs - a pass/fail name checker, a temperature converter (Celsius / Fahrenheit / Kelvin) and a discount calculator with a repeat-or-exit loop.
+
+## Assignments completed
+| # | Assignment | Focus |
+|---|---|---|
+| 1 | Basic Linux Commands | navigation, hidden files, viewing and searching files, processes, IP address |
+| 2 | Linux Permissions | permission strings, `chmod`, `chown`, users and groups |
+| 3 | File System Commands | copy, move, delete, find, compress, reading logs |
+| 4 | Bash Scripting | leap-year check, even/odd, range check, simple calculator |
+
+## Key takeaways
+- Bash for quick system automation; Python for anything heavier (parsing, data, custom tools).
+- Module 3 complete: Linux, Bash and Python are the base for every module that follows.
